@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e9dfd8;
+  color: #251d1d;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+  margin-top: 2.5rem;
+}
+
+nav a {
+  color: #251d1d;
+}
+
+.bio-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #251d1d;
+  margin: 2.5rem;
+  padding: 1rem;
+}
