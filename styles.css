@@ -19,10 +19,22 @@ nav {
   margin-left: 6.5rem;
   margin-right: 6.5rem;
   margin-top: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 nav a {
   color: #251d1d;
+  text-decoration: none;
+}
+
+header {
+  font-size: 3rem;
+}
+
+.bio-text {
+  font-size: 1.25rem;
+  font-weight: lighter;
 }
 
 .bio-container {
@@ -33,4 +45,13 @@ nav a {
   border: 1px solid #251d1d;
   margin: 2.5rem;
   padding: 1rem;
+}
+
+.bio-email {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.bio-linkedin {
+  width: 50px;
 }
